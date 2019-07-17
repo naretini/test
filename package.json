@@ -1,0 +1,12 @@
+{
+  "name": "root",
+  "private": true,
+  "devDependencies": {
+    "lerna": "^3.15.0"
+  },
+  "scripts": {
+    "test": "lerna run test --scope={@pixart/beta,@pixart/usage}",
+    "new-version": "lerna version --conventional-commits --yes",
+    "diff": "lerna diff"
+  }
+}

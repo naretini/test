@@ -1,0 +1,12 @@
+{
+    "name": "@pixart/beta",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo testing beta  with version: $npm_package_version"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC"
+}
